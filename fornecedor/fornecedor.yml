@@ -2,11 +2,9 @@ spring:
   datasource:
    password: Evaristo
     username: root
-    url: jdbc:mysql://localhost/provisor?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost/fornecedor?createDatabaseIfNotExist=true&serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: create
       
-      
-      
-      
+    
