@@ -2,7 +2,7 @@ spring:
   datasource:
     password: sa
     username: Evaristo10
-    url: jdbc:sqlserver://localhost:1433/fornecedor
+    url: jdbc:sqlserver://localhost;fornecedor
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     platform: mssql
   jpa:
@@ -10,4 +10,4 @@ spring:
       ddl-auto: update
       
       
-      
+      jdbc:sqlserver://fornecedor\instanceName][:portNumber]][;property=value[;property=value]]
