@@ -2,7 +2,12 @@ spring:
   datasource:
     password: Evaristo
     username: root
-    url: jdbc:sqlserver://localhost/fornecedor
+    url: jdbc:sqlserver://;localhost/fornecedor
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    platform: mssql
   jpa:
     hibernate:
       ddl-auto: update
+      
+      
+      
