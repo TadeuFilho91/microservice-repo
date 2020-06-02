@@ -2,7 +2,7 @@ spring:
   datasource:
     password: Evaristo
     username: root
-    url: jdbc:mysql://localhost/fornecedor?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:sqlserver://localhost/fornecedor?createDatabaseIfNotExist=true&serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: update
