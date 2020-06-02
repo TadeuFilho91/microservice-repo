@@ -2,7 +2,7 @@ spring:
   datasource:
     password: sa
     username: Evaristo10
-    url: jdbc:sqlserver://localhost;fornecedor
+    url: jdbc:sqlserver://;serverName=localhost/fornecedor;instanceName=default
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     platform: mssql
   jpa:
