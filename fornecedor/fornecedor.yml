@@ -1,10 +1,8 @@
 spring:
   datasource:
-    password: sa
-    username: Evaristo10
-    url: jdbc:sqlserver://;serverName=localhost/fornecedor;instanceName=default
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    platform: mssql
+   password: Evaristo
+    username: root
+    url: jdbc:mysql://localhost/fornecedor?createDatabaseIfNotExist=true&serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: update
