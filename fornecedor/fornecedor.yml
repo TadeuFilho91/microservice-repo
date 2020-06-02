@@ -10,4 +10,4 @@ spring:
       ddl-auto: update
       
       
-      jdbc:sqlserver://fornecedor\instanceName][:portNumber]][;property=value[;property=value]]
+      
