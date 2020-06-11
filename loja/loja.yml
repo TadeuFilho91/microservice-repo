@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: Evaristo
-    username: root
-    url: jdbc:mysql://localhost/loja?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password: Evaristo10
+    username: sa
+    url: jdbc:sqlserver://localhost:1433;databaseName=loja
   jpa:
     hibernate:
       ddl-auto: update
