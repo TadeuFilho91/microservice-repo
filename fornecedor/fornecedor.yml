@@ -3,6 +3,7 @@ spring:
     password: Evaristo10
     username: sa
     url: jdbc:sqlserver://localhost:1433;databaseName=fornecedor
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     hibernate:
       ddl-auto: update
