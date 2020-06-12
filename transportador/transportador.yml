@@ -1,8 +1,9 @@
 spring:
   datasource:
-    password: Evaristo
-    username: root
-    url: jdbc:mysql://localhost/transportador?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password: Evaristo10
+    username: sa
+    url: jdbc:sqlserver://localhost:1433;databaseName=transportador
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     hibernate:
       ddl-auto: update
